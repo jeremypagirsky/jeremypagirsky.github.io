@@ -15,30 +15,27 @@ body{
 }
 
 .whole-bio{
-    box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-flow: row nowrap;
     padding: 5px;
     margin: 5px;
-    flex-shrink: 20;
-    flex-basis: 100px;
 }
 
 .bio-text{
+    display: flex;
     font-family:'Courier', Courier, monospace;
-    box-sizing: border-box; 
     font-size: 24px; 
     padding: 10px; 
     margin: 10px;
-    display: flex;
-    flex-direction: column;
+    flex-basis: auto;
+    flex-flow: column wrap;
 }
 
 .pic{
-    box-sizing: border-box;
-    margin: 10px;
-    padding: 20px;
     display: flex;
-    align-self: stretch;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 4;
+    flex-basis: auto;
+    flex-flow: column wrap;
 }

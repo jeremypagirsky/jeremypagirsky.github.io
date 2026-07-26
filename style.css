@@ -1,0 +1,39 @@
+/* styles.css */
+
+body{
+    background-color: rgb(217, 214, 214);
+}
+
+.my-name{
+    color:black;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 10px;
+    margin: 10px;
+}
+
+.links{
+    color:black;
+    font-family: 'Courier', Courier, monospace;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+img{
+    padding: 10px;
+    border-color: black;
+    box-sizing: border-box;
+}
+
+.img_container{
+    padding: 10px;
+    border-color: black;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: center;   
+}

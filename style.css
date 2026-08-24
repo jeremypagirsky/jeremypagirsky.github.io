@@ -37,6 +37,7 @@ img{
     display: flex;
     flex-basis: 400px;
     flex-shrink: 1;
+    width: 100%;
 }
 
 .img_container{
@@ -45,8 +46,9 @@ img{
     box-sizing:border-box;
     display: flex;
     justify-content: center;
-    flex-direction: row;  
+    flex-direction: column;  
     flex-wrap: wrap;
-    flex-basis: 400px;
+    flex-basis: 200px;
     flex-shrink: 1;
+    width: 100%;
 }

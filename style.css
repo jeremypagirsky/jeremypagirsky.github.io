@@ -35,7 +35,7 @@ img{
     border-color: black;
     box-sizing: border-box;
     display: flex;
-    flex-basis: 400px;
+    flex-basis: 200px;
     flex-shrink: 1;
     width: 100%;
 }
@@ -48,7 +48,7 @@ img{
     justify-content: center;
     flex-direction: column;  
     flex-wrap: wrap;
-    flex-basis: 400px;
+    flex-basis: 200px;
     flex-shrink: 1;
     width: 100%;
 }

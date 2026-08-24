@@ -27,7 +27,6 @@ body{
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    flex-grow: 1;
     flex-wrap: wrap;
 }
 
@@ -36,7 +35,8 @@ img{
     border-color: black;
     box-sizing: border-box;
     display: flex;
-
+    flex-basis: 400px;
+    flex-shrink: 1;
 }
 
 .img_container{
@@ -46,5 +46,7 @@ img{
     display: flex;
     justify-content: center;
     flex-direction: row;  
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    flex-basis: 400px;
+    flex-shrink: 1;
 }

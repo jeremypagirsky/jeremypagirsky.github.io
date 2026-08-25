@@ -27,7 +27,7 @@ body{
 .bio-text{
     display: flex;
     font-family:'Courier', Courier, monospace;
-    font-size: auto; 
+    font-size: 22px; 
     padding: 10px; 
     margin: 10px;
     flex-basis: 100px;

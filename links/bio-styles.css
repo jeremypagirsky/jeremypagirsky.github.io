@@ -33,7 +33,7 @@ body{
     flex-basis: 100px;
     flex-grow: 1;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .pic{
@@ -42,13 +42,12 @@ body{
     border-color: black;
     margin: 10px;
     padding: 10px;
-    flex-basis: auto;
-    flex-shrink: 1;
-    width: 75%;
-    height: 75%;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    flex-basis: auto;
+    flex-shrink: 1;
+    width: 100%;
+    height: 100%;
 } 
 
 img{
@@ -58,6 +57,6 @@ img{
     box-sizing: border-box;
     flex-basis: auto;
     flex-shrink: 1;
-    width: 100%; 
-    height: 100%;
+    width: 672px; 
+    height: 896px;
 }
